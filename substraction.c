@@ -19,7 +19,7 @@ int main(){
 		for(j=0;j<n;j++){
 		o[i][j] = a[i][j]-b[i][j];
 	}
-	printf("the sum of two matrices is:\n");
+	printf("the sub of two matrices is:\n");
 	for(i=0;i<m;i++)
 		for(j=0;j<n;j++){
 		printf("%d  ",o[i][j]);
